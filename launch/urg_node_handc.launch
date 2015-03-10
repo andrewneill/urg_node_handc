@@ -1,0 +1,12 @@
+ <launch>
+ <!-- Parameters for starting and ending scans 4-8 and 675-679-->
+  <param name="Height_Scan_Start" value="40" type="int"/>
+  <param name="Height_Scan_End" value="50" type="int"/>
+  <param name="Clearance_Scan_Start" value="655" type="int"/>
+  <param name="Clearance_Scan_End" value="679" type="int"/>
+
+
+
+  <node pkg="urg_node_handc" type="urg_node_handc" name="laser"/>
+
+</launch>
